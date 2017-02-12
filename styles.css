@@ -1,3 +1,21 @@
-h1{
-  color: pink;
+h1 {
+  color: grey;
+  font-family: helvetica;
+}
+
+h2 {
+  color: #2a2a2a;
+  font-family: helvetica;
+}
+
+header {
+    height: 60px;
+    background: #D8BFD8;
+    border: 1px solid #CCC;
+    margin: 0px auto;
+}
+
+.listOils {
+  color: #72587F;
+  font-family: garamond;
 }
