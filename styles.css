@@ -9,13 +9,22 @@ h2 {
 }
 
 header {
-    height: 60px;
-    background: #D8BFD8;
-    border: 1px solid #CCC;
-    margin: 0px auto;
+  height: 60px;
+  background: #D8BFD8;
+  margin: 0px auto;
 }
 
 .listOils {
   color: #72587F;
   font-family: garamond;
+}
+
+.border {
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: 15px;
+  width: 200px;
+  height: 400px;
+  overflow: scroll;
 }
