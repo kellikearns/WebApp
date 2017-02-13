@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<header>
+<h1>Essential Oils Application</h1>
+<ul class="topnav" id="myTopnav">
+  <li><a href="app.html">Home</a></li>
+  <li><a href="all_oils_list.html">All Oils List</a></li>
+  <li><a href="symptom_search.html">Symptom Search</a></li>
+  <li><a href="recipes.html">Recipes</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</header>
+<body>
+
+<h2>Community Recipes!</h2>
+
+<div class='mainPageBody'>
+<p>
+Community-based recipe book of essential oils!
+
+<h3>Submit Your Recipe Here!</h3>
+<form method='post'>
+  Name: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Recipe Title: <input type='text' name='title' id='title' /><br />
+
+  Benefits: <input type='text' name='benefits' id='benefits' /><br />
+
+  Recipe: <br />
+  <textarea name='recipe' id='recipe'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+
+</p>
+</div>
+
+</body>
+</html>
